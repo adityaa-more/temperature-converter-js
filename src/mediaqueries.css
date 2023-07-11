@@ -15,13 +15,4 @@
     margin: 10px 5px;
     font-size: 25px;
   }
-
-  .main-container {
-    max-width: 98%;
-    flex-direction: column;
-  }
-
-  .container-box {
-    max-width: 100%;
-  }
 }
