@@ -4,26 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="../images/apple-touch-icon.png">
     <title>Temperature Converter</title>
-    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="mediaqueries.css">
     <link href="/dist/output.css" rel="stylesheet">
 </head>
 
 <body class="bg-slate-400 dark:bg-slate-800 font-mono m-0 p-0 box-border ">
     <div class="wrapper flex flex-col items-center max-w-[950px] mt-12 mx-auto mb-0">
-        <div class="mt-10 w-full flex justify-end">
+        <div class="pr-3 w-full flex justify-end">
             <img id="sun" src="../images/brightness.png" alt="light mode" class="w-8 h-8 ml-20 cursor-pointer">
             <img id="moon" src="../images/night-mode.png" alt="dark mode" class="w-8 h-8 ml-10 cursor-pointer">
         </div>
 
-        <h1 class="flex items-center mt-4 mb-8 mx-3 text-center uppercase text-5xl font-bold dark:text-white">
+        <h1 class="flex items-center mt-16 mb-8 mx-3 text-center uppercase text-5xl font-bold dark:text-white">
             Temperature Converter
         </h1>
 
         <div class="main-container flex w-[98%]">
             <div
-                class=" container-box bg-slate-800 text-white dark:bg-stone-200 dark:text-black w-[50%] p-2 m-1  rounded-xl shadow-md">
+                class="container-box bg-slate-800 text-white dark:bg-stone-200 dark:text-black md:w-full lg:w-[50%] p-2 m-1  rounded-xl shadow-md">
                 <div
                     class="input-field flex justify-around justify-items-center w-[100%] my-1 mx-auto relative py-3 border-b-2 dark:border-slate-700">
                     <div class="text-xl leading-10 min-w-[60px]">
@@ -60,7 +61,7 @@
                 </div>
             </div>
             <div
-                class="info-box w-[50%] p-2 m-1 bg-slate-800 text-white dark:bg-stone-200 dark:text-black rounded-xl shadow-md">
+                class="info-box md:w-full mt-4 lg:mt-0 lg:w-[50%] p-2 m-1 bg-slate-800 text-white dark:bg-stone-200 dark:text-black rounded-xl shadow-md">
                 <div id="OutputInfo" class="flex w-full h-full flex-col justify-center items-center">
                     <h2 class="text-center mb-2 text-3xl">Basic Information</h2>
                     <ul class="list-disc m-1 ml-6 text-sm">

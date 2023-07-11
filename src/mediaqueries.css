@@ -4,7 +4,7 @@
 
 @media only screen and (max-width: 700px) {
   .wrapper {
-    width: 98%;
+    max-width: 98%;
     margin: 10px;
     box-sizing: border-box;
     padding: 5px;
@@ -17,11 +17,11 @@
   }
 
   .main-container {
-    width: 98%;
+    max-width: 98%;
     flex-direction: column;
   }
 
   .container-box {
-    width: 98%;
+    max-width: 100%;
   }
 }
